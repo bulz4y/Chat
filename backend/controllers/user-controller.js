@@ -61,7 +61,7 @@ module.exports.login = async (req, res, next) => {
     let token;
 
     try {
-        token = jwt.sign({ username, id: user._id }, process.env.secret);
+        token = jwt.sign({ username, id: user._id }, process.env.SECRET);
     } catch(err) {
         return next(new HttpError('Login failed, please try again.', 500));
     }
@@ -118,7 +118,7 @@ module.exports.signup = async (req, res, next) => {
     }
 
     try {
-        token = jwt.sign({ username, id: newUser._id }, process.env.secret);
+        token = jwt.sign({ username, id: newUser._id }, process.env.SECRET);
     } catch(err) {
         return next(new HttpError('Signup failed please try again later', 500));;
     }
