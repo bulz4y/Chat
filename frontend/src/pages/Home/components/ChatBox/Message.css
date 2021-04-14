@@ -1,0 +1,11 @@
+.message {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    flex: 0;
+}
+
+.message__author {
+    margin-bottom: .5rem;
+}

@@ -1,0 +1,5 @@
+.chat-conversation {
+    padding: 2rem;
+    overflow-y: scroll;
+    height: 100%;
+}

@@ -1,0 +1,26 @@
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.user:hover {
+    background: #00aeff;
+    color: #fff;
+}
+
+.user__initials {
+    background: #089fe6;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 2rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 2rem;
+}

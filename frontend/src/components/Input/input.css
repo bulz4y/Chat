@@ -1,0 +1,12 @@
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-control input {
+    padding: 1rem;
+    border-radius: .4rem;
+    border: .1rem solid rgba(0,0,0,.2);
+    outline: none;
+    width: 100%;
+}
+

@@ -1,0 +1,31 @@
+.auth {
+    padding: 5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.auth__title {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.auth__content {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.auth__form {
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .auth__content {
+        width: 100%;
+    }
+
+    .auth {
+        width: 100%;
+        padding: 5rem 3rem;
+    }
+}

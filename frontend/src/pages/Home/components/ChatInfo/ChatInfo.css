@@ -1,0 +1,17 @@
+
+.chat-info {
+    width: 400px;
+    background: #fff;
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    position: relative;
+    z-index: 10;
+}
+
+@media(max-width: 768px) {
+    .chat-info {
+        max-width: 200px;
+    }
+}   
+
+
+

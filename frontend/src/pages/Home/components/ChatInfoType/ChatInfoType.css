@@ -1,0 +1,23 @@
+.chat-info-type {
+    display: flex;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0, .2);
+}
+
+.chat-info-type__chats, .chat-info-type__users {
+    flex-grow: 1;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+
+.chat-info-type__chats:hover, .chat-info-type__users:hover {
+    box-shadow: 0px 3px #00aeff;
+}
+
+
+.chat-info-type .active {
+    box-shadow: 0px 3px #00aeff;
+}
